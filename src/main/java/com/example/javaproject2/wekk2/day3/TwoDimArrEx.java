@@ -28,5 +28,7 @@ public class TwoDimArrEx {
         arr[1][1] = 5;
 
         printArray(arr);
+
+
     }
 }
