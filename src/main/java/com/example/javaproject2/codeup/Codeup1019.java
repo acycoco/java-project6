@@ -9,15 +9,13 @@ public class Codeup1019 {
         Scanner sc = new Scanner(System.in);
 
 
-        String[] hdm = sc.next().split(".");
-        for(String s : hdm)
-            System.out.println(s);
+        String[] hdm = sc.next().split("\\.");
 
-        int h = Integer.parseInt(hdm[0]);
+        int y = Integer.parseInt(hdm[0]);
         int m = Integer.parseInt(hdm[1]);
         int d = Integer.parseInt(hdm[2]);
-        System.out.println(h);
-       // System.out.printf("%04d.%02d.%02d", h, m, d);*/
+
+        System.out.printf("%04d.%02d.%02d", y, m, d);
 
 
     }
