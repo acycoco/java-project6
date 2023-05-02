@@ -1,6 +1,6 @@
 package com.example.javaproject2.programmers;
 
-public class SequenceAndQueries3 {
+public class ManuplateNumbers {
     public static String solution(int[] numLog) {
         String answer = "";
         int control;
