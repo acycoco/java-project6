@@ -1,0 +1,28 @@
+package com.example.javaproject2.week5.day2;
+
+import java.util.Arrays;
+
+public class SelectionSort01 {
+    public static void main(String[] args) {
+        int[] arr = {7, 2, 3, 9, 28, 11};
+
+
+        for (int i = 0; i < arr.length - 1; i++) {
+
+            int targetIdx = i;
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[targetIdx] > arr[j]) {
+                    targetIdx = j;
+                }
+            }
+
+            int temp = arr[targetIdx];
+            arr[targetIdx] = arr[i];
+            arr[i] = temp;
+
+        }
+
+        System.out.println(Arrays.toString(arr));
+
+    }
+}
